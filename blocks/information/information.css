@@ -1,0 +1,20 @@
+.information { 
+    display:flex;
+    padding:72px 30px 110px 30px;
+    position:relative;
+    max-width:1130px;
+    margin:0 auto;
+}
+
+@media screen and (max-width: 1024px) { 
+    .information { 
+       max-width:900px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .information { 
+        width:calc(100% - 40px);
+    }
+}

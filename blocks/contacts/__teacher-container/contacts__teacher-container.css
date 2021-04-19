@@ -1,0 +1,9 @@
+.contacts__teacher-container {
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    align-items:center;
+    padding-left:0;;
+    margin:auto;
+}

@@ -1,0 +1,17 @@
+.information__photo {
+    position:relative;
+    top:160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-left:40px;
+    flex:1 1 1;
+    
+    
+}
+
+/*@media  screen and (max-width: 1024px) { 
+    .information__photo { 
+        left:500px;
+    }
+}

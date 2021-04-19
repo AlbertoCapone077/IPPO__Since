@@ -1,0 +1,11 @@
+.footer__icons { 
+   width:580px;
+   height:120px;
+   display:flex;
+   justify-content:center;
+   background: rgba(221, 216, 250, 0.4);
+    border: 1px solid #D5E8FF;
+    box-sizing: border-box;
+    align-items:center;
+    border-radius: 18px;
+}

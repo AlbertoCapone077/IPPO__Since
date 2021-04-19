@@ -1,0 +1,16 @@
+.subscribe__search { 
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  border: 1px solid #2D74FF;
+  width:540px;
+  height:54px;
+  align-items:center;
+}
+
+@media screen and (max-width: 768px) { 
+  .subscribe__search { 
+    display:flex;
+    flex-direction: column;
+  }
+}

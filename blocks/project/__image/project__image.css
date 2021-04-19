@@ -1,0 +1,8 @@
+.project__image { 
+    margin:auto;
+    display:block;
+    border: 1px solid #100075;
+    box-sizing: border-box;
+    border-radius:50%;
+    padding: 18px 19px;
+}

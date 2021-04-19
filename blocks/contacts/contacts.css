@@ -1,0 +1,11 @@
+.contacts { 
+    max-width:1130px;
+    margin:0 auto;
+    padding: 38px 20px 77px 20px;
+}
+
+@media screen and (max-width: 1024px) { 
+    .contancts { 
+        width:calc(100% - 250px);
+    }
+}

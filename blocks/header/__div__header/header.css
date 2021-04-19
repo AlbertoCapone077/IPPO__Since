@@ -1,0 +1,7 @@
+.header{ 
+  margin: 0 auto;
+  max-width:1130px;
+  position:relative;
+  display:flex;
+  padding:0 20px;
+}

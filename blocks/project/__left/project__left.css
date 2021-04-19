@@ -1,0 +1,11 @@
+.project__left { 
+    background: #000000;
+    position:absolute;
+    right:40px;
+    bottom:200px;
+    background-repeat: no-repeat;
+    background:transparent;
+    outline:none;
+    border:none;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}

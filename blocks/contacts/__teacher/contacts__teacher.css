@@ -1,0 +1,7 @@
+.contacts__teacher { 
+  margin-right:60px;
+}
+
+.contacts__teacher:last-child{
+    margin-right:0;
+}

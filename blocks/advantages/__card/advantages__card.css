@@ -1,0 +1,20 @@
+.advantages__card { 
+    margin-right:75px;
+    flex:1 1 350px;
+}
+
+@media screen and (max-width: 1024px) { 
+    .advantages__card { 
+        margin-right:30px;
+    }
+}
+
+.advantages__card:nth-child(3){
+    margin-right:0;
+}
+.advantages__card:nth-child(2){
+    margin-top:10px;
+}
+.advantages__card:last-child { 
+    margin-right:0;
+}

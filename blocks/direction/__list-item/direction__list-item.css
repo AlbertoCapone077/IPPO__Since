@@ -1,0 +1,13 @@
+.direction__list-item {
+  margin:0 30px 0 0;
+  border-radius: 18px;
+  background: rgba(212, 208, 233, 0.4);
+  border: 1px solid #D4D0E9;
+  box-sizing:border-box;
+  padding-top:25px;
+  flex:1 1 255px;
+}
+
+.direction__list-item:last-child { 
+  margin-right:0;
+}

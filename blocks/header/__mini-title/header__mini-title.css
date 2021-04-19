@@ -1,0 +1,9 @@
+.header__mini-title { 
+  margin:auto;
+  padding-top:30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+}

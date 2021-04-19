@@ -1,0 +1,9 @@
+.subscribe { 
+    max-width:1120px;
+    margin:auto;
+    flex:1 1 1120px;
+    height:333px;
+    background: #FFFFFF;
+    margin-bottom:70px;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}

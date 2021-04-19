@@ -1,0 +1,11 @@
+.advantages__cards { 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@media screen and (max-width: 1024px) { 
+    .advantages__cards { 
+      max-width:750px;
+    }
+  }

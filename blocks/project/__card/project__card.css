@@ -1,0 +1,11 @@
+.project__card { 
+    background: rgba(212, 208, 233, 0.4);
+    border: 1px solid #D4D0E9;
+    box-sizing: border-box;
+    border-radius: 18px;
+    margin: 0 30px 0 0;
+    padding:20px 37px 15px 60px;
+    height:570px;
+    position:relative;
+    flex: 0 0 450px;
+}
