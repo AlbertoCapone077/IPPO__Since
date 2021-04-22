@@ -44,6 +44,8 @@
 @import url(../blocks/project/__cards/project__cards.css);
 @import url(../blocks/project/__card/project__card.css);
 @import url(../blocks/project/__desk/project__desk.css);
+@import url(../blocks/project/__arrow-left/project__arrow-left.css);
+@import url(../blocks/project/__arrow-right/project__arrow-right.css);
 
 /* блок секции advantages */
 @import url(../blocks/advantages/advantages.css);
@@ -69,6 +71,8 @@
 @import url(../blocks/contacts/__teacher-container/contacts__teacher-container.css);
 @import url(../blocks/contacts/__teacher/contacts__teacher.css);
 @import url(../blocks/contacts/__photo/contacts__photo.css);
+@import url(../blocks/contacts/__arrow-left/contacts__arrow-left.css);
+@import url(../blocks/contacts/__arrow-right/contacts__arrow-right.css);
 
 /* блок секции subscribe */
 @import url(../blocks/subscribe/subscribe.css);
