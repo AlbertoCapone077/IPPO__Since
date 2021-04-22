@@ -1,0 +1,9 @@
+.project__arrow-left { 
+    background:url(../../../images/project/left-arrow.svg) no-repeat;
+    width:24px;
+    height:42px;
+    position:relative;
+    top:180px;
+    right:30px;
+    cursor: pointer;
+}

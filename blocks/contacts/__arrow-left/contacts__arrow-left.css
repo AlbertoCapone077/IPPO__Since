@@ -1,0 +1,8 @@
+.contacts__arrow-left { 
+    background:url(../../../images/project/left-arrow.svg) no-repeat;
+    width:65px;
+    height:60px;
+    cursor:pointer;
+    position:relative;
+    bottom:25px;
+}

@@ -1,0 +1,8 @@
+.project__arrow-right { 
+    background:url(../../../images/project/right-arrow.svg) no-repeat;
+    width:24px;
+    height:42px;
+    position:relative;
+    top:180px;
+    cursor:pointer;
+}
