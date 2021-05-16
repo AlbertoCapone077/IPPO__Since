@@ -125,35 +125,63 @@
                    </section>
 
                    <section class="contacts">
-                     <p class="contacts__title title">Контакты</p>
-                     <ul class="contacts__teacher-container">
-                       <div class="contacts__arrow-left"></div>
-                       <li class="contacts__teacher">
-                         <img  class="contacts__photo" src="images/contacts/bolbakov.png" alt="Болбаков">
-                            <p class="contacts__text">Head I&PPO Sciecne Crew
-                              Болбаков Р.Г.</p>
-                         </li>
-                         
-                         <li class="contacts__teacher">
-                            <img class="contacts__photo" src="images/contacts/Миша.png" alt="Михаил">
-                            <p class="contacts__text">Chief Executive Officer
-                              Коваленко М.А.</p>  
-                           </li> 
+                    <p class="contacts__title title">Контакты</p>
+                    <div class="slider">
+                      
+                     <div class="slider__item">
+                       <div class="contacts__teacher-container">
+                         <div class="contacts__teacher">
+                           <img class="contacts__photo" src="images/contacts/bolbakov.png" alt="Болбаков">
+                           <p class="contacts__text">Head I&PPO Sciecne Crew
+                             Болбаков Р.Г.</p>  
+                         </div> 
+                       </div>
+                     </div>
+             
+                     <div class="slider__item">
+                       <div class="contacts__teacher-container">
+                         <div class="contacts__teacher">
+                           <img class="contacts__photo" src="images/contacts/Миша.png" alt="Михаил">
+                           <p class="contacts__text">Chief Executive Officer
+                             Коваленко М.А.</p>  
+                         </div> 
+                       </div>
+                     </div>
 
-                           <li class="contacts__teacher">
-                             <img class="contacts__photo" src="images/contacts/Артем.png" alt="Артем">
+                     <div class="slider__item">
+                       <div class="contacts__teacher-container">
+                         <div class="contacts__teacher">
+                           <img class="contacts__photo" src="images/contacts/Артем.png" alt="Артем">
                              <p class="contacts__text">Chief Technology Officer
-                              Макаревич А.Д.</p>
-                           </li>
+                               Макаревич А.Д.</p> 
+                         </div> 
+                       </div>
+                     </div>
 
-                           <li class="contacts__teacher">
-                             <img class="contacts__photo" src="images/contacts/Светлана.png" alt="Светлана">
+                     <div class="slider__item">
+                       <div class="contacts__teacher-container">
+                         <div class="contacts__teacher">
+                           <img class="contacts__photo" src="images/contacts/Светлана.png" alt="Светлана">
                              <p class="contacts__text">Content Manager
-                              Ефремова С.Г.
-                           </li>
-                           <div class="contacts__arrow-right"></div>
-                       </ul>
-                     </section>
+                               Ефремова С.Г.</p>
+                         </div> 
+                       </div>
+                     </div>
+                     
+                     <!--Добавлен ибо иначе не будет работать, см. index.js-->
+                     <div class="slider__item">
+                       <div class="contacts__teacher-container">
+                         <div class="contacts__teacher">
+                           <img class="contacts__photo" src="images/contacts/Артем.png" alt="Артем">
+                             <p class="contacts__text">Chief Technology Officer
+                               Макаревич А.Д.</p> 
+                         </div> 
+                       </div>
+                     </div>
+                     <!--Конец Артема II-->
+
+                   </div>                     
+                   </section>
 
                      <section class="subscribe">
                          <p class="subscribe__title">Подписаться на новости группы</p>
@@ -172,7 +200,12 @@
                         </div>
                       </footer>
      </div>
-     <script src="./index.js"></script>
+     <!-- Подключаем jQuery -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+     <!-- Подключаем слайдер Slick -->
+     <script src="./js/slick.min.js"></script>
+     <!-- Подключаем файл скриптов -->
+     <script src="./js/index.js"></script>
      
   </body>
 </html>      
