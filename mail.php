@@ -11,8 +11,8 @@ $name = $_POST['user_name'];
 $mail->isSMTP();
 $mail->Host = 'smtp.mail.ru';
 $mail->SMTPAuth = true;
-$mail->Username = 'apresyan42@mail.ru';
-$mail->Password = 'alberto5149';
+$mail->Username = '';
+$mail->Password = '';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 
