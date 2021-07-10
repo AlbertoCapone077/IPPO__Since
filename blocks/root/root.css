@@ -11,6 +11,10 @@
 span{
   font-weight: bold;
 }
+
+a{
+  display:block;
+}
 /*@media (min-width: 1280px) {
     .root {
       padding-right: calc((100% - 1280px)/2);
