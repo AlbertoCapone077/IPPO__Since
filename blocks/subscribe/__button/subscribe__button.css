@@ -16,3 +16,8 @@
   align-items: center;
   cursor: pointer;
 }
+
+.subscribe__button:hover { 
+  opacity:0.7 linear;
+  color:#0000d0;
+}
