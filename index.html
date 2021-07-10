@@ -16,7 +16,7 @@
         <div class="header">
           <img class="header__logo" src = images/header/mini-logo.svg alt = "Логотип кафедры Иппо">
           <div class ="header__list">                              
-             <a href = '#' target = "_blank" class="header__list-item">О нас</a>
+             <a href = "#" target = "_self" rel ="noopener"  class="header__list-item">О нас</a>
              <a href = '#' target = "_blank" class="header__list-item">Направления</a>
             <a href = '#' target = "_blank" class="header__list-item">Проекты</a>
             <a href = '#' target = "_blank" class="header__list-item">Преимущества</a>
@@ -30,7 +30,7 @@
            <img class="header__strelka" src= "images/header/Strelka.svg" alt ="Стрелка вниз">
           </header>
 
-          <section class="information">
+          <section id ="information.html" class="information">
             <div class="information__cards">
              <p class="information__start title">О нас</p>
              <p class="information__paragraph">В Студенческой научной группе «Индустриальное производство программного обеспечения» на кафедре ИиППО состоят ребята, которым интересна научная работа по самым разным тематикам. Свои проекты и работы по научным направлениям студенты представляют на кафедральных, общевузовских и всероссийских конференциях. А научные статьи, которые привносят что-то новое в научное движение, публикуются в международных научных изданиях.</p>
@@ -186,9 +186,9 @@
                      <section class="subscribe">
                          <p class="subscribe__title">Подписаться на новости группы</p>
                          <p class="subscribe__subtitle">Подпишитесь на наши события, чтобы быть в курсе всех <br> обновлений группы</p>
-                         <div class="subscribe__search">
-                            <input id = "forms" placeholder ="введите email" class="subscribe__vvod"></input>
-                            <button type="button" class="subscribe__button">Подписаться</button>
+                         <div class="subscribe__search" action="mail.php" method="POST">
+                            <input id = "forms" placeholder ="введите email" id= "" name = "user_name" class="subscribe__vvod"></input>
+                            <button type="submit" class="subscribe__button">Подписаться</button>
                          </div>
                      </section>
 
